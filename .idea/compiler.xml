@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="server-eureka" />
         <module name="server-client-3" />
-        <module name="server-client-2" />
-        <module name="server-client-1" />
         <module name="server-hystrix-dashboard" />
+        <module name="server-client-1" />
+        <module name="server-client-2" />
         <module name="api-gateway" />
       </profile>
     </annotationProcessing>

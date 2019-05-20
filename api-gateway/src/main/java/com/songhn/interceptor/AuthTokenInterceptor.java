@@ -1,12 +1,20 @@
 package com.songhn.interceptor;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+/**
+ * @author : songhn
+ * @className: AuthTokenInterceptor
+ * @company : Boboqi Software Co.,Ltd.
+ * @date : 2019-05-20 19:29 
+ * @description: <p>TODO</p>
+ */
+@Component
 public class AuthTokenInterceptor implements HandlerInterceptor {
 
     public AuthTokenInterceptor(){

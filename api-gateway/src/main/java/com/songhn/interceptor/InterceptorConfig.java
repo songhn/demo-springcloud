@@ -49,7 +49,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry interceptorRegistry) {
-        interceptorRegistry.addInterceptor(new AuthTokenInterceptor()).addPathPatterns("/**").excludePathPatterns(FAVICON_URL);
+        interceptorRegistry.addInterceptor(new AuthTokenInterceptor()).addPathPatterns("/api/**").excludePathPatterns(FAVICON_URL);
     }
 
     @Override
